@@ -1,0 +1,14 @@
+package tictactoe
+
+fun main() {
+    val game = readln()
+    val grid = mutableListOf<Char>()
+    for (i in 0..8){
+        grid.add(game[i])
+    }
+    println("---------")
+    println("| ${grid[0]} ${grid[1]} ${grid[2]} |")
+    println("| ${grid[3]} ${grid[4]} ${grid[5]} |")
+    println("| ${grid[6]} ${grid[7]} ${grid[8]} |")
+    println("---------")
+}
